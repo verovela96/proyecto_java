@@ -1,0 +1,304 @@
+*{
+    margin: 0;
+    padding: 0; 
+    box-sizing: border-box;
+}
+.header__flex {
+    background-color: rgb(51, 58, 64);
+    display:flex;
+    justify-content: center;
+}
+.logo {
+    display:flex;
+    align-items: center;
+    width: 50%;
+    padding-left: 2rem;
+}
+.img__logo{
+    width:20%;
+}
+.titulo{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.menu {
+    padding-right: 2.5rem;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.link {
+    text-decoration: none;
+    color: white;
+    font-size: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/*.container{
+    width: 100%;
+}*/
+.bgColorGris{
+    background-color:  rgb(51, 58, 64);
+}
+.justificadoFinal{
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+}
+/*.linktickets{
+    text-decoration: none;
+    color: rgb(90, 202, 16);
+    font-size: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+}*/
+.sectionMenu{
+    background-image: linear-gradient(to right,rgb(0 0 0 /.5),rgb(0 0 0 /.5)), url(../assets/imagenes/ba1.jpg);
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.contenidoMenu { 
+    width: 60%;
+    text-align: right;
+    color: white;
+    padding-right: 2.5rem;
+}
+.button{
+    display: flex;
+    flex-direction: row;
+    padding-left: 65%;
+    justify-content: space-between
+    
+}
+.button1 {
+    text-decoration: none;
+     display: block;
+    height: fit-content;
+    width: fit-content;
+    justify-content: space-around;
+    border: 0.5px solid white ;
+    border-radius: 5%;
+    color: white;
+    padding: 5px;
+ }
+.button2 {
+    text-decoration: none;
+    text-align:center;
+    display: block;
+    height: fit-content;
+    width: fit-content;
+    justify-content: space-around;
+    background-color: rgb(33, 167, 93);
+    border: 0.5px solid rgb(33, 167, 93);
+    border-radius: 5%;
+    color: rgb(255, 255, 255);
+    padding: 5px;
+    }
+.sectionTarjetas{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.padreTarjetas {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.tarjeta__flex {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+}
+.tarjeta {
+    background-color: white;
+    width: 30%;
+    border: 1px solid rgb(202, 202, 202);
+    border-radius: 10px;
+}
+.tarjetaImagen{
+    width: 100%;
+    border-radius: 10px;
+}
+.buttonJava{
+    background-color: #FDC206;
+    color: black ;
+    border: solid 1px;
+    border: #FDC206;
+    width: fit-content;
+    border-radius:3px;
+    font-size: 0.8rem;
+    font-weight: bold;
+    margin-top: 4%;
+    margin-left: 10%;
+    padding: 1px;
+}
+.buttonReact{
+    background-color: #229CB3;
+    color: white;
+    border: solid 1px;
+    border: #229CB3;
+    width: fit-content;
+    border-radius:3px;
+    font-size: 0.8em;
+    font-weight: bold;
+    margin-top: 4%;
+    margin-left: 1%;
+    padding: 1px;
+}
+.buttonNegocios{
+    background-color: #6d747c;
+    color: white ;
+    border: solid 1px;
+    border: #6d747c;
+    width: fit-content;
+    border-radius:3px;
+    font-size: 0.8rem;
+    font-weight: bold;
+    margin-top: 4%;
+    margin-left: 10%;
+    padding: 1px;
+}
+.buttonStartups{
+    background-color: #e03643;
+    color: white;
+    border: solid 1px;
+    border: #e03643;
+    width: fit-content;
+    border-radius:3px;
+    font-size: 0.8em;
+    font-weight: bold;
+    margin-top: 4%;
+    margin-left: 1%;
+    padding: 1px;
+}
+.tarjetaContenido {
+    text-align: left;
+    padding: 1rem;
+}
+.tarjetaParrafo {
+    width: 100%;
+}
+/*pantalla dividida*/
+.sectionDividida {
+    display: flex;
+    height: 70vh;
+}
+.imagenIzq{
+    height: 100%;
+    width: 50%;
+    background-image: url(../assets/imagenes/ba3.jpg);
+    background-size: cover;
+}
+.contenidoDer {
+    height: 100%;
+    width: 50%;
+    padding: 2rem;
+    background-color: #343333;
+    color: white;
+    font-size: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.textBsAs{
+    font-size: medium;
+}
+.buttonBsAs{
+    display: block;
+    text-decoration: none;
+    color: white;
+    border: 1px solid white;
+    border-radius: 5px;
+    padding: 4px;
+    font-size: large;
+}
+#charla{
+    font-size: small;
+}
+#Enviar {
+    width: 100%;
+    background-color: #96C93E;
+    border: solid #96C93E;
+    border-radius: 5px;
+    color: #f6ffc7;
+ }
+.ancho{
+    width: 50%;
+    margin: 0 auto;
+}
+.colorFooter{
+    background: #1c3643;
+    background: linear-gradient(0deg,#1c3643 0%, #1e5372 20%);
+    background: -webkit-linear-gradient(0deg,#1c3643 0%, #1e5372 20%);
+    background: -moz-linear-gradient(0deg,#1c3643 0%, #1e5372 20%);
+}
+@media screen and (max-width: 500px) {
+    .header__flex{
+        flex-direction: column;
+    }
+    .logo {
+        width: 100%;
+        justify-content: space-between;
+        padding-left: 0;
+    }
+    .menu {
+        width: 100%;
+        flex-direction: column;
+        padding-right: initial;
+    }
+    .link {
+    display: inline-block;
+    padding: 1rem;
+    border-bottom: 1px solid white;
+    width: 100%;
+    }
+    /*seccion menu-parrafo*/
+    .sectionMenu {
+        justify-content: center;
+    }
+    .parrafoMenu { 
+        line-height: 1.5rem;
+    }
+    .contenidoMenu {
+        width: 80%;
+        text-align: center;
+        backdrop-filter: blur(5px);
+    }
+    .button1{
+        text-align: center;
+        justify-content: space-between;
+    }
+    .button2{
+        justify-content: center;
+    }
+    h1{
+        font-size: 2rem;
+        margin-bottom: 0.6rem;
+    }
+    /*seccion Tarjetas*/
+    .tarjeta__flex{
+        flex-direction: column;
+    }
+    .tarjeta {
+        width: 100%;
+        margin-bottom: 1rem;
+        box-shadow: -7px -7px 50px 6px rgba(0,0,0,0.54);
+        -webkit-box-shadow: -7px -7px 50px 6px rgba(0,0,0,0.54);
+        -moz-box-shadow: -7px -7px 50px 6px rgba(0,0,0,0.54);
+    }
+    .sectionDividida{
+        flex-direction: column;
+    }
+    .imagenIzq{
+        width: 100%;
+    }
+    .contenidoDer{
+        width: 100%;
+    }
+    .ancho{
+        width: 100%;
+    }
+}

@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Integrador</title>
+        <link rel="shortcut icon" href="favicon.ico">
+        <link rel="stylesheet" href="./css/bootstrap.min.css">
+        <link rel="stylesheet" href="./css/estilos.css">
+    </head>
+    <body>
+        <!--<header class="header__flex">
+            <div class="logo">
+                <img class="img__logo" src="./assets/imagenes/codoacodo.png" alt="Logo de codo a codo" loading="lazy">
+            <h2 class="titulo">Conf. Bs. As.</h2>
+            </div>
+            <nav class="menu">
+                <a class="link" href="#">La Conferencia</a>  
+                <a class="link" href="#orarores">Los oradores</a>
+                <a class="link" href="#lugarYFecha">El lugar y la Fecha</a>
+                <a class="link" href="#formulario">Conviértete en Orador</a>
+                <a class="linktickets" href="./pages/comprartickets.html">Comprar tickets</a> 
+            </nav>
+        </header>
+    -->
+    <header>
+        <nav class="navbar navbar-expand-lg bgColorGris">
+            <div class="container">
+              <a class="navbar-brand text-white" href="#">
+                <img src="./assets/imagenes/codoacodo.png" alt="Logo" width="100">
+                Conf. Bs. As.
+            </a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0 justificadoFinal">
+                        <li class="nav-item">
+                        <a class="nav-link active text-white" aria-current="page" href="#">La Conferencia</a></li>
+                        <li class="nav-item"><a class="nav-link text-muted" href="#oradores">Los oradores</a></li>
+                        <li class="nav-item"><a class="nav-link text-muted" href="#lugarYFecha">El lugar y la Fecha</a></li>
+                        <li class="nav-item"><a class="nav-link text-muted" href="#formulario">Conviértete en Orador</a></li>
+                        <li class="nav-item"><a class="nav-link text-success" href="./pages/comprartickets.html">Comprar tickets</a></li>
+                    </ul>
+              </div>
+            </div>
+          </nav>
+    </header>
+        <main>
+            <section class="sectionMenu">
+                <div class="contenidoMenu">
+                    <h1>Conf B.s A.s.</h1>
+                    <p class="parrafoMenu">Bs As llega por primera vez a Argentina. Un evento para compartir con nuestra comunidad el conocimiento y experiencia de los expertos que están creando el futuro de internet. Ven a conocer a miembros del evento, a otros estudiantes de Codo a Codo y los oradores de primer nivel que tenemos para ti. Te esperamos!</p>
+                    <div class="button"> 
+                        <a class="button1" href="./pages/contacto.html"> Quiero ser orador </a>
+                        <a class="button2" href="./pages/comprartickets.html"> Comprar tickets </a> 
+                    </div>
+                    <!--<a href="./pages/contacto.html">Quiero ser orador</a>
+                    <a href="./pages/comprartickets.html">Comprar Tickets</a>-->
+                </div>
+            </section>
+        </main>
+        <br>
+        <section class="sectionTarjetas" id="oradores">
+            <div>
+                <h6>CONOCE A LOS</h6><h2>ORADORES</h2>
+            </div>
+            <div class="padreTarjetas">
+                <div class="tarjeta__flex">
+                    <div class="tarjeta"> 
+                        <img class="tarjetaImagen" src="./assets/imagenes/steve.jpg" alt="imagen de card" loading="lazy" width="300">
+                        <div class= row>
+                            <label class="buttonJava" for="">JavaScript</label>
+                            <label class="buttonReact" for="">React</label>
+                         </div>
+                        <div class="tarjetaContenido">
+                            <h3>Steve Jobs</h3>
+                            <div class="tarjetaParrafo">
+                                <p>Steven Paul Job fue un empresario, diseñador industrial, magnate empresarial, propietario de medios e inversor estadounidense. Fue cofundador y presidente ejecutivo de Apple y máximo accionista individual de The Walt Disney Company.</p>
+                            </div>
+                        </div>
+            
+                    </div>
+                    <div class="tarjeta"> 
+                        <img class="tarjetaImagen" src="./assets/imagenes/bill.jpg" alt="imagen de card" loading="lazy" width="300">
+                        <div class= row>
+                            <label class="buttonJava" for="">JavaScript</label>
+                            <label class="buttonReact" for="">React</label>
+                         </div>
+                        <div class="tarjetaContenido">
+                            <h3>Bill Gates</h3>
+                            <div class="tarjetaParrafo">
+                                <p>William Henry Gates III es un magnate empresarial, desarrollador de software, inversor, autor y filántropo estadounidense. Es cofundador de Microsoft, junto con difunto amigo del infancia Paul Allen.</p>
+                            </div>
+                        </div> 
+            
+                    </div>
+                    <div class="tarjeta"> 
+                        <img class="tarjetaImagen" src="./assets/imagenes/ada.jpeg" alt="imagen de card" loading="lazy" width="300">
+                        <div class= row>
+                            <label class="buttonNegocios" for="">Negocios</label>
+                            <label class="buttonStartups" for="">Startups</label>
+                         </div>
+                        <div class="tarjetaContenido">
+                            <h3>Ada Lovelace</h3>
+                            <div class="tarjetaParrafo">
+                                <p>Augusta Ada King, condesa de Lovelace, registrada al nacer como Augusta Ada Byron y conocida habitualmente como Ada Lovelace, fue una matemática y escritora británica, célebre sobre todo por su trabajo acerca de la computadora mecánica de uso general de Charles Babbage, la denominada máquina analítica.</p>
+                            </div>
+                        </div>
+                        
+                    </div>   
+                </div>
+            </div>
+            <br>
+        </section>
+        <section class="sectionDividida" id="lugarYFecha">
+            <div class="imagenIzq">
+                
+            </div>
+           
+            <div class="contenidoDer">
+                <h3>B.s A.s.-Octubre</h3>
+                <p class="textBsAs">Buenos Aires es la gran capital cosmopolita de Argentina. Su centro es la Plaza de Mayo, rodeada de imponentes edificios del siglo XIX, incluida la Casa Rosada, el icónico palacio presidencial que tiene varios balcones. Entre otras atracciones importantes, se incluyen el Teatro Colón, un lujoso teatro de ópera de 1908 con cerca de 2,500 asientos, y el moderno museo MALBA, que exhibe arte latinoamericano.</p>
+                <a class="buttonBsAs" href="">Conocé más</a>
+
+            </div>
+        </section>
+        <br>
+        <!--<section id="formulario">
+            <form action="">
+                <div>
+                    <input type="text" placeholder="Nombre">
+                    <input type="text" placeholder="Apellido">
+                </div>
+
+                <div>
+                    <textarea name="" id="" cols="50" rows="20" placeholder="Sobre qué quieres hablar?"></textarea>
+                </div>
+               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. </p>
+               <div>
+                <p>Indique su provincia</p>
+                <select>
+                    <option value="">Salta</option>
+                    <option value="">Entre Rios</option>
+                    <option value="">Santa Fe</option>
+                    <option value="">Rio Negro</option>
+                    <option value="">Cordoba</option>
+                </select>
+               </div>
+               <div>
+                <input type="submit" value="Enviar">
+               </div>
+            </form>
+
+        </section>-->
+        <section id="formulario" class="container">
+            <div class="d-flex flex-column align-items-center">
+                <h6> CONVIÉRTETE EN UN </h6> <h2> ORADOR</h2>
+                <p> Anótate como orador para dar una charla ignite. Cuéntanos de qué quieres hablar!</p>
+            </div>
+            <div class="row ancho">
+                <div class="col mb-3 d-flex">
+                    <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Nombre">
+                    <input type="text" class="form-control" id="exampleFormControlInput2" placeholder="Apellido">
+                </div>
+            </div>
+            <div class="row ancho">
+                <div class=" col mb-3">
+                    <textarea name="" class="form-control" id="exampleFormControlTextarea" cols="50" rows="10" placeholder="Sobre qué quieres hablar?"></textarea>
+                    <p class="nav-link text-muted" id="charla"> Recuerda incluir un título para tu charla</p>
+                    <input class=" Enviar d-grid btn-outline-success my-3" id= "Enviar" type="submit" value="Enviar" >
+                </div>
+            </div>
+            
+        </section>
+        <footer class="colorFooter">
+            <div class="container">
+                <div class="row">
+                    <div class="col pt-4 pb-4"> <a class="text-white text-decoration-none" href="">Preguntas Frecuentes</a></div>
+                    <div class="col pt-4 pb-4"> <a class="text-white text-decoration-none" href="">Contactanos</a></div>
+                    <div class="col pt-4 pb-4"> <a class="text-white text-decoration-none" href="">Prensa</a></div>
+                    <div class="col pt-4 pb-4"> <a class="text-white text-decoration-none" href="">Conferencias</a></div>
+                    <div class="col pt-4 pb-4"> <a class="text-white text-decoration-none" href="">Terminos y Condiciones</a></div>
+                    <div class="col pt-4 pb-4"> <a class="text-white text-decoration-none" href="">Privacidad</a></div>
+                    <div class="col pt-4 pb-4"> <a class="text-white text-decoration-none" href="">Estudiantes</a></div>
+                </div>
+            </div>
+        </footer>
+    </body>
+</html>
