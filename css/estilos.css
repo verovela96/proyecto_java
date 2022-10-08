@@ -301,4 +301,7 @@
     .ancho{
         width: 100%;
     }
+    .textoFormulario{
+        text-align: center;
+    }
 }
