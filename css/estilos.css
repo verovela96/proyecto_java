@@ -229,6 +229,22 @@
     width: 50%;
     margin: 0 auto;
 }
+.anchoButtonB{
+    margin-right: 0.5rem;
+    margin-left: 0.5rem;
+    
+}
+.anchoButtonR{
+    margin-right: 0.5rem;
+    margin-left: 0.5rem;
+}
+.colorbutton{
+    width: 100%;
+    background-color: #96C93E;
+    border: solid #96C93E;
+    border-radius: 5px;
+    color: #f6ffc7;
+}
 .colorFooter{
     background: #1c3643;
     background: linear-gradient(0deg,#1c3643 0%, #1e5372 20%);
@@ -267,12 +283,10 @@
         text-align: center;
         backdrop-filter: blur(5px);
     }
-    .button1{
-        text-align: center;
-        justify-content: space-between;
-    }
-    .button2{
+    .button{
+        flex-direction: column;
         justify-content: center;
+
     }
     h1{
         font-size: 2rem;
@@ -304,4 +318,14 @@
     .textoFormulario{
         text-align: center;
     }
+    .anchoButtonB{
+        margin-right: 0rem;
+        margin-left: 0rem;
+        
+    }
+    .anchoButtonR{
+        margin-right: 0rem;
+        margin-left: 0rem;
+    }
+    
 }
